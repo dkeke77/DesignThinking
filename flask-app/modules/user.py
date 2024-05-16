@@ -5,6 +5,7 @@ class User(UserMixin):
         self.id = user_info['id']
         self.password = user_info['password']
         self.name = user_info['name']
+        
 
     def get_id(self):
         return self.id
